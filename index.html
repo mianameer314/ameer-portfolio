@@ -88,6 +88,23 @@
       background: var(--primary-color);
       color: #fff;
     }
+    /* Mobile Fix for Skills Filter Buttons */
+    @media (max-width: 768px) {
+      .skills-filter {
+        flex-wrap: wrap;          /* allow wrapping */
+        justify-content: center;  /* center align */
+        max-width: 95%;           /* keep inside screen */
+        margin: 0 auto 2rem;      /* center with margin */
+        gap: 0.5rem;              /* tighter spacing on mobile */
+      }
+    
+      .filter-btn {
+        flex: 1 1 auto;           /* auto resize */
+        min-width: 120px;         /* same button width */
+        text-align: center;
+      }
+    }
+
 
     :root {
       --primary-color: #00bfa6;        /* Teal (light theme main) */
