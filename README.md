@@ -41,7 +41,7 @@
 ## 📬 Contact  
 - **Email:** [mianameer314@gmail.com](mailto:mianameer314@gmail.com)  
 - **GitHub:** [mianameer314](https://github.com/mianameer314)  
-- **LinkedIn:** [Mian Ameer Muhammad](https://linkedin.com/in/mian-ameer-muhammad/)  
+- **LinkedIn:** [Mian Ameer Muhammad](https://linkedin.com/in/mian-ameer-muhammad)  
 
 ---
 
