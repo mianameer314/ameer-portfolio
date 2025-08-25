@@ -13,21 +13,6 @@
 
 ---
 
-## 📂 Project Structure  
-
-ameer-portfolio/
-├── index.html
-├── assets/
-│   ├── images/
-│   │   ├── profile.jpg
-│   │   ├── Mian_Ameer_Muhammad_CV.pdf
-│   │   └── certificates/
-│   │       ├── certificate1.pdf
-│   │       ├── certificate2.pdf
-│   │       └── ... (up to 16 certificates)
-│   └── css/
-│       ├── style.css
-│       └── animations.css
 
 
 ---
