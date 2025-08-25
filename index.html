@@ -1036,7 +1036,7 @@
 
     const themeBtn = document.querySelector('.theme-toggle');
     const htmlEl = document.documentElement;
-    const savedTheme = localStorage.getItem('theme') || 'light';
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     htmlEl.setAttribute('data-theme', savedTheme);
     themeBtn.addEventListener('click', () => {
       const currentTheme = htmlEl.getAttribute('data-theme');
