@@ -6,7 +6,7 @@
 
   <title>Mian Ameer Muhammad | AI/ML & Backend Developer Portfolio</title>
 
-  <meta name="description" content="Explore the professional portfolio of Mian Ameer Muhammad, an AI & ML Developer and Data Analyst from Attock, Pakistan. Discover machine learning projects, backend systems, and innovative AI solutions.">
+  <meta name="description" content="Explore the professional portfolio of Mian Ameer Muhammad, an AI/ML & Backend Developer and Data Scientist from Attock, Pakistan. Discover machine learning projects, backend systems, and innovative AI solutions.">
 
   <meta name="keywords" content="Mian Ameer Muhammad, AI Developer, ML Developer, Machine Learning Engineer, Data Analyst, Portfolio, Python, COMSATS, Attock, Pakistan, FastAPI, SQL, Backend Developer, o2geeks">
 
@@ -68,6 +68,27 @@
       padding: 0;
       box-sizing: border-box;
     }
+        .skills-filter {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .filter-btn {
+      background: var(--card-bg);
+      color: var(--text-color);
+      border: 1px solid var(--primary-color);
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .filter-btn.active,
+    .filter-btn:hover {
+      background: var(--primary-color);
+      color: #fff;
+    }
+
     :root {
       --primary-color: #00bfa6;        /* Teal (light theme main) */
       --primary-glow: rgba(0, 191, 166, 0.5);
@@ -740,7 +761,7 @@
   <div class="about-content reveal">
     <strong>Who Am I?</strong>
     <p>
-      I am a dedicated AI & ML Developer and Data Analyst from Attock, Pakistan, currently pursuing BS in Computer Science at COMSATS University Islamabad. My expertise spans FastAPI backend systems, machine learning, NLP, and scalable system architecture. I aim to leverage data science and AI to solve real-world problems.
+      I am a dedicated AI & ML Developer and Data Scientist from Attock, Pakistan, currently pursuing BS in Artifical Intelligence at COMSATS University Islamabad. My expertise spans FastAPI backend systems, machine learning, NLP, and scalable system architecture. I aim to leverage data science and AI to solve real-world problems.
     </p>
   </div>
 </section>
@@ -750,7 +771,7 @@
   <div class="experience-card">
     <div class="card reveal" style="text-align: left;">
       <div class="card-content">
-        <h3>ML and NLP Developer - Intern</h3>
+        <h3>ML-Engineer and Backend Developer - Intern</h3>
         <p class="company" style="font-weight: bold; margin-bottom: 5px;">o2geeks</p>
         <span class="duration">July 21, 2025 - August 29, 2025 (Ongoing)</span>
         <ul>
@@ -869,95 +890,76 @@
 
 
 <section id="skills">
-  <h2 class="section-title reveal">Skills</h2>
+  <h2 class="section-title reveal" style="color:#00bfa6;">My Skills</h2>
+
+  <!-- Filter Buttons -->
+  <div class="skills-filter">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="frontend">Frontend</button>
+    <button class="filter-btn" data-filter="programming">Programming</button>
+    <button class="filter-btn" data-filter="frameworks">Frameworks</button>
+    <button class="filter-btn" data-filter="databases">Databases</button>
+    <button class="filter-btn" data-filter="backend">Backend</button>
+    <button class="filter-btn" data-filter="tools">Tools</button>
+    <button class="filter-btn" data-filter="domains">Domains</button>
+  </div>
+
   <div class="grid-container">
+
+    <!-- Frontend -->
+    <div class="card skill-box frontend reveal"><i class="fab fa-html5"></i><h3>HTML & CSS</h3></div>
+    <div class="card skill-box frontend reveal"><i class="fab fa-js-square"></i><h3>JavaScript</h3></div>
+    <div class="card skill-box frontend reveal"><i class="fab fa-react"></i><h3>React</h3></div>
 
     <!-- Programming Languages -->
-    <div class="card skill-box reveal"><i class="fab fa-python"></i><h3>Python</h3></div>
-    <div class="card skill-box reveal"><i class="fab fa-java"></i><h3>Java</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-code"></i><h3>C++</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-database"></i><h3>SQL</h3></div>
-    <div class="card skill-box reveal"><i class="fab fa-html5"></i><h3>HTML & CSS</h3></div>
+    <div class="card skill-box programming reveal"><i class="fab fa-python"></i><h3>Python</h3></div>
+    <div class="card skill-box programming reveal"><i class="fab fa-java"></i><h3>Java</h3></div>
+    <div class="card skill-box programming reveal"><i class="fas fa-code"></i><h3>C++</h3></div>
+    <div class="card skill-box programming reveal"><i class="fas fa-database"></i><h3>SQL</h3></div>
 
     <!-- Libraries / Frameworks -->
-    <div class="card skill-box reveal"><i class="fas fa-project-diagram"></i><h3>Pandas</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-square-root-alt"></i><h3>NumPy</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-chart-line"></i><h3>Scikit-learn</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-brain"></i><h3>TensorFlow</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-microchip"></i><h3>PyTorch</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-server"></i><h3>FastAPI</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-database"></i><h3>SQLAlchemy</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-cogs"></i><h3>Alembic</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-sync-alt"></i><h3>Celery</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-memory"></i><h3>Redis</h3></div>
+    <div class="card skill-box frameworks reveal"><i class="fas fa-project-diagram"></i><h3>Pandas</h3></div>
+    <div class="card skill-box frameworks reveal"><i class="fas fa-square-root-alt"></i><h3>NumPy</h3></div>
+    <div class="card skill-box frameworks reveal"><i class="fas fa-chart-line"></i><h3>Scikit-learn</h3></div>
+    <div class="card skill-box frameworks reveal"><i class="fas fa-brain"></i><h3>TensorFlow</h3></div>
+    <div class="card skill-box frameworks reveal"><i class="fas fa-microchip"></i><h3>PyTorch</h3></div>
+
+    <!-- Backend -->
+    <div class="card skill-box backend reveal"><i class="fas fa-server"></i><h3>FastAPI</h3></div>
+    <div class="card skill-box backend reveal"><i class="fas fa-database"></i><h3>SQLAlchemy</h3></div>
+    <div class="card skill-box backend reveal"><i class="fas fa-cogs"></i><h3>Alembic</h3></div>
+    <div class="card skill-box backend reveal"><i class="fas fa-sync-alt"></i><h3>Celery</h3></div>
+    <div class="card skill-box backend reveal"><i class="fas fa-memory"></i><h3>Redis</h3></div>
 
     <!-- Databases -->
-    <div class="card skill-box reveal"><i class="fas fa-database"></i><h3>MongoDB</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-database"></i><h3>PostgreSQL</h3></div>
+    <div class="card skill-box databases reveal"><i class="fas fa-database"></i><h3>MongoDB</h3></div>
+    <div class="card skill-box databases reveal"><i class="fas fa-database"></i><h3>PostgreSQL</h3></div>
 
     <!-- Tools -->
-    <div class="card skill-box reveal"><i class="fab fa-git-alt"></i><h3>Git</h3></div>
-    <div class="card skill-box reveal"><i class="fab fa-github"></i><h3>GitHub</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-robot"></i><h3>GitHub Copilot</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-book"></i><h3>Jupyter Notebook</h3></div>
-    <div class="card skill-box reveal"><i class="fab fa-docker"></i><h3>Docker</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-vial"></i><h3>Postman</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-train"></i><h3>Railway</h3></div>
-    <div class="card skill-box reveal"><i class="fab fa-aws"></i><h3>AWS S3/EC2</h3></div>
+    <div class="card skill-box tools reveal"><i class="fab fa-git-alt"></i><h3>Git</h3></div>
+    <div class="card skill-box tools reveal"><i class="fab fa-github"></i><h3>GitHub</h3></div>
+    <div class="card skill-box tools reveal"><i class="fas fa-robot"></i><h3>GitHub Copilot</h3></div>
+    <div class="card skill-box tools reveal"><i class="fas fa-book"></i><h3>Jupyter Notebook</h3></div>
+    <div class="card skill-box tools reveal"><i class="fab fa-docker"></i><h3>Docker</h3></div>
+    <div class="card skill-box tools reveal"><i class="fas fa-vial"></i><h3>Postman</h3></div>
+    <div class="card skill-box tools reveal"><i class="fas fa-train"></i><h3>Railway</h3></div>
+    <div class="card skill-box tools reveal"><i class="fab fa-aws"></i><h3>AWS S3/EC2</h3></div>
 
     <!-- Domains -->
-    <div class="card skill-box reveal"><i class="fas fa-robot"></i><h3>Artificial Intelligence</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-brain"></i><h3>Machine Learning</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-project-diagram"></i><h3>Deep Learning</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-chart-bar"></i><h3>Data Visualization</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-search"></i><h3>Exploratory Data Analysis (EDA)</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-keyboard"></i><h3>Prompt Engineering</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-tasks"></i><h3>Project Management</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-cogs"></i><h3>Backend Development</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-network-wired"></i><h3>MLOps</h3></div>
-    <div class="card skill-box reveal"><i class="fas fa-sitemap"></i><h3>System Architecture</h3></div>
+    <div class="card skill-box domains reveal"><i class="fas fa-robot"></i><h3>Artificial Intelligence</h3></div>
+    <div class="card skill-box domains reveal"><i class="fas fa-brain"></i><h3>Machine Learning</h3></div>
+    <div class="card skill-box domains reveal"><i class="fas fa-project-diagram"></i><h3>Deep Learning</h3></div>
+    <div class="card skill-box domains reveal"><i class="fas fa-chart-bar"></i><h3>Data Visualization</h3></div>
+    <div class="card skill-box domains reveal"><i class="fas fa-search"></i><h3>Exploratory Data Analysis (EDA)</h3></div>
+    <div class="card skill-box domains reveal"><i class="fas fa-keyboard"></i><h3>Prompt Engineering</h3></div>
+    <div class="card skill-box domains reveal"><i class="fas fa-tasks"></i><h3>Project Management</h3></div>
+    <div class="card skill-box domains reveal"><i class="fas fa-cogs"></i><h3>Backend Development</h3></div>
+    <div class="card skill-box domains reveal"><i class="fas fa-network-wired"></i><h3>MLOps</h3></div>
+    <div class="card skill-box domains reveal"><i class="fas fa-sitemap"></i><h3>System Architecture</h3></div>
 
   </div>
 </section>
 
-
-<section id="projects">
-  <h2 class="section-title reveal">Projects</h2>
-  <div class="grid-container">
-
-    <div class="card project-box reveal">
-      <h3>Bank Churn Prediction <i class="fab fa-python project-language-icon" title="Python"></i></h3>
-      <p>Performed EDA and built a churn prediction model using Neural Network to predict customer turnover.</p>
-      <a href="https://github.com/mianameer314/Bank-churn-prediction-using-ML-models-From-Scratch" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-    </div>
-
-    <div class="card project-box reveal">
-      <h3>Handwritten Digits Classification (CNN from Scratch) <i class="fab fa-python project-language-icon" title="Python"></i></h3>
-      <p>Implemented a CNN using NumPy to classify handwritten digits without relying on TensorFlow or PyTorch.</p>
-      <a href="https://github.com/mianameer314/Classifcation-of-handWritten-digits-Using-CNN-From-Scratch" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-    </div>
-
-    <div class="card project-box reveal">
-      <h3>Linear Algebra & Probability Analysis <i class="fab fa-python project-language-icon" title="Python"></i></h3>
-      <p>Demonstrates linear algebra and probability concepts via Python—with matrix transformations and dice roll simulations.</p>
-      <a href="https://github.com/mianameer314/Linear-Algebra-and-Probability-Analysis-Using-NumPy" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-    </div>
-
-    <div class="card project-box reveal">
-      <h3>Intelligent University Timetable Generator <i class="fab fa-python project-language-icon" title="Python"></i></h3>
-      <p>An advanced Python application using Constraint Satisfaction Problem techniques for generating conflict-free university timetables.</p>
-      <a href="https://github.com/mianameer314/Intelligent-University-Timetable-Generator-" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-    </div>
-
-    <!-- Optional 5th project -->
-    <div class="card project-box reveal">
-      <h3>AI Recruitment System <i class="fab fa-python project-language-icon" title="Python"></i></h3>
-      <p>A machine learning-based system to streamline the recruitment process by automating candidate screening and matching.</p>
-      <a href="https://github.com/mianameer314/AI_RECRUITMENT_SYSTEM" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-    </div>
-
-  </div>
-</section>
 
 
 <section id="contact">
@@ -1036,7 +1038,7 @@
 
     const themeBtn = document.querySelector('.theme-toggle');
     const htmlEl = document.documentElement;
-    const savedTheme = localStorage.getItem('theme') || 'light';
+    const savedTheme = localStorage.getItem('theme') || 'dark';
     htmlEl.setAttribute('data-theme', savedTheme);
     themeBtn.addEventListener('click', () => {
       const currentTheme = htmlEl.getAttribute('data-theme');
@@ -1064,7 +1066,7 @@
 
     const typingTextEl = document.getElementById('typing-text');
     const cursorEl = document.querySelector('#hero .cursor');
-    const textToType = "AI & ML Developer | Backend Developer | Data Scientist | DevOps/MLOps Engineer";
+    const textToType = "AI/ML & Backend Developer | Data Scientist | DevOps/MLOps Engineer";
     let charIndex = 0;
     function type() {
       if (charIndex < textToType.length) {
@@ -1244,6 +1246,27 @@
     }
     initParticles();
     animate();
+    // Skills Filter
+    const filterBtns = document.querySelectorAll(".filter-btn");
+    const skillBoxes = document.querySelectorAll(".skill-box");
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelector(".filter-btn.active").classList.remove("active");
+        btn.classList.add("active");
+
+        const filter = btn.getAttribute("data-filter");
+
+        skillBoxes.forEach(box => {
+          if (filter === "all" || box.classList.contains(filter)) {
+            box.style.display = "block";
+          } else {
+            box.style.display = "none";
+          }
+        });
+      });
+    });
+
   });
 </script>
 
