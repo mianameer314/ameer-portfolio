@@ -36,10 +36,6 @@
 ✔ Professional SEO + Social Media Meta Tags 🏷️  
 
 ---
-
-## 📸 Preview  
-![Portfolio Preview](assets/images/profile.jpg)  
-
 ---
 
 ## 📬 Contact  
