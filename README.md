@@ -9,7 +9,7 @@
 ---
 
 ## 🚀 Live Demo  
-🔗 [View My Portfolio](https://mianameer314.github.io/portfolio/)  
+🔗 [View My Portfolio](https://mianameer314.github.io/ameer-portfolio/)  
 
 ---
 
