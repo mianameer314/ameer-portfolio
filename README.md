@@ -1,10 +1,10 @@
 # 🌐 Mian Ameer Muhammad – Portfolio  
 
-[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github)](https://mianameer314.github.io/portfolio/)  
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?logo=github)](https://mianameer314.github.io/ameer-portfolio/)  
 [![Made with HTML](https://img.shields.io/badge/Code-HTML5-orange?logo=html5)](#)  
 [![Made with CSS](https://img.shields.io/badge/Style-CSS3-blue?logo=css3)](#)  
 [![Made with JavaScript](https://img.shields.io/badge/Script-JavaScript-yellow?logo=javascript)](#)  
-[![Status](https://img.shields.io/badge/Portfolio-Live-success)](https://mianameer314.github.io/portfolio/)  
+[![Status](https://img.shields.io/badge/Portfolio-Live-success)](https://mianameer314.github.io/ameer-portfolio/)  
 
 ---
 
